@@ -342,6 +342,11 @@ header #nav-toggle {
   transition: var(--project-transition);
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+.project-title a {
+  text-decoration: none;
+  color: #fff;
 }
 .project-description {
   transition: visibility 0.32s, opacity 0.32s, transform 0.32s;
@@ -514,6 +519,10 @@ footer {
   #home {
     flex-wrap: wrap-reverse;
     justify-content: center;
+  }
+  #home #picture {
+    justify-content: center;
+    align-items: center;
   }
   #about-section {
     flex-wrap: wrap;
